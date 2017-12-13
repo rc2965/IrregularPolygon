@@ -2,7 +2,7 @@ import java.awt.geom.*;     // for Point2D.Double
 import java.util.ArrayList; // for ArrayList
 import gpdraw.*;            // for DrawingTool
 
-public class IrregularPolygon
+public class RyanChow implements Player
 {
     private ArrayList <Point2D.Double> myPolygon;
     private double perimeter;
@@ -17,7 +17,7 @@ public class IrregularPolygon
     }
     
     //constructors
-    public IrregularPolygon()
+    public RyanChow()
     {
         myPolygon = new ArrayList<Point2D.Double>();
         perimeter = 0.0;
